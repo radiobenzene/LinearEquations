@@ -6,4 +6,6 @@ An example of the program input string:
 (LinearEquation '(3 Y + 12 Y - 6 = 9))
 ```
 The output should be:
+```Lisp
 Y = 1
+```
