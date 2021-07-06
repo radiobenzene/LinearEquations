@@ -24,7 +24,7 @@
 )
 
 
-"GetSignedNumber : Checks for sign in linear equation"
+"getSignedNumber : Checks for any sign in linear equation"
 (defun getSignedNumber(sign equalSign number)
         (cond
         ((eq sign '-) (cond ((eq equalSign T) number) (T (- 0 number))))
@@ -52,7 +52,6 @@
                     )
                 )
             ((eq (GetVariableOne L) 0) (format t "No Solution"))
-            
             (T(* -1 (/ (GetVariableZero L) (GetVariableOne L))))
         )
 )
