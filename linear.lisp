@@ -50,7 +50,7 @@
                     (cond 
                     ((eq (GetVariableOne L) 0) (format t "Infinite Solutions"))
                     )
-                )
+             )
             ((eq (GetVariableOne L) 0) (format t "No Solution"))
             (T(* -1 (/ (GetVariableZero L) (GetVariableOne L))))
         )
